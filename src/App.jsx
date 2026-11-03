@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Header from "./Header";
 import './App.css'
 
 export default function App() {
   return(
-   < div className="App">
+   <div className="App">
     <div className="container">
-<div className="App-header">Hello World</div>
+<Header />
     </div>
     </div>
   );
